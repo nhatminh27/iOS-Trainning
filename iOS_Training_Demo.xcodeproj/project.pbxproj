@@ -7,21 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		071DF3F6D4FE7293957D630B /* Pods_iOS_Training_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27F6C7D8F1F70036DB1F369 /* Pods_iOS_Training_Demo.framework */; };
 		FA220DEB228BA1B6002AD770 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220DEA228BA1B6002AD770 /* AppDelegate.swift */; };
-		FA220DED228BA1B6002AD770 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220DEC228BA1B6002AD770 /* ViewController.swift */; };
-		FA220DF0228BA1B6002AD770 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA220DEE228BA1B6002AD770 /* Main.storyboard */; };
 		FA220DF2228BA1B7002AD770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA220DF1228BA1B7002AD770 /* Assets.xcassets */; };
 		FA220DF5228BA1B7002AD770 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA220DF3228BA1B7002AD770 /* LaunchScreen.storyboard */; };
+		FA220E02228BA2DE002AD770 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220E00228BA2DE002AD770 /* HomeViewController.swift */; };
+		FA220E03228BA2DE002AD770 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA220E01228BA2DE002AD770 /* HomeViewController.xib */; };
+		FA220E07228BA658002AD770 /* SnapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220E05228BA658002AD770 /* SnapKitViewController.swift */; };
+		FA220E08228BA658002AD770 /* SnapKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA220E06228BA658002AD770 /* SnapKitViewController.xib */; };
+		FA220E0C228BA67F002AD770 /* NSLCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220E0A228BA67F002AD770 /* NSLCViewController.swift */; };
+		FA220E0D228BA67F002AD770 /* NSLCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA220E0B228BA67F002AD770 /* NSLCViewController.xib */; };
+		FA220E11228BA9F6002AD770 /* TableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220E0F228BA9F6002AD770 /* TableViewViewController.swift */; };
+		FA220E12228BA9F6002AD770 /* TableViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA220E10228BA9F6002AD770 /* TableViewViewController.xib */; };
+		FA220E16228BAA3A002AD770 /* StudentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220E14228BAA3A002AD770 /* StudentCell.swift */; };
+		FA220E17228BAA3A002AD770 /* StudentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA220E15228BAA3A002AD770 /* StudentCell.xib */; };
+		FA220E19228BABE3002AD770 /* StudentClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220E18228BABE3002AD770 /* StudentClass.swift */; };
+		FA220E1B228BABF8002AD770 /* StudentStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220E1A228BABF8002AD770 /* StudentStruct.swift */; };
+		FA220E1F228BB597002AD770 /* CollectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220E1D228BB597002AD770 /* CollectionViewViewController.swift */; };
+		FA220E20228BB597002AD770 /* CollectionViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA220E1E228BB597002AD770 /* CollectionViewViewController.xib */; };
+		FA220E24228BB805002AD770 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220E22228BB805002AD770 /* CollectionViewCell.swift */; };
+		FA220E25228BB805002AD770 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA220E23228BB805002AD770 /* CollectionViewCell.xib */; };
+		FA220E29228BF0F7002AD770 /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220E27228BF0F7002AD770 /* AlamofireViewController.swift */; };
+		FA220E2A228BF0F7002AD770 /* AlamofireViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA220E28228BF0F7002AD770 /* AlamofireViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		91417E1136A78F4942E62030 /* Pods-iOS_Training_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Training_Demo.release.xcconfig"; path = "Target Support Files/Pods-iOS_Training_Demo/Pods-iOS_Training_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		B27F6C7D8F1F70036DB1F369 /* Pods_iOS_Training_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Training_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0987C6D8B0E1A9BD1A0441 /* Pods-iOS_Training_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Training_Demo.debug.xcconfig"; path = "Target Support Files/Pods-iOS_Training_Demo/Pods-iOS_Training_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		FA220DE7228BA1B6002AD770 /* iOS_Training_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Training_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA220DEA228BA1B6002AD770 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA220DEC228BA1B6002AD770 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FA220DEF228BA1B6002AD770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA220DF1228BA1B7002AD770 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA220DF4228BA1B7002AD770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA220DF6228BA1B7002AD770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA220E00228BA2DE002AD770 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FA220E01228BA2DE002AD770 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		FA220E05228BA658002AD770 /* SnapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitViewController.swift; sourceTree = "<group>"; };
+		FA220E06228BA658002AD770 /* SnapKitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SnapKitViewController.xib; sourceTree = "<group>"; };
+		FA220E0A228BA67F002AD770 /* NSLCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLCViewController.swift; sourceTree = "<group>"; };
+		FA220E0B228BA67F002AD770 /* NSLCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NSLCViewController.xib; sourceTree = "<group>"; };
+		FA220E0F228BA9F6002AD770 /* TableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewViewController.swift; sourceTree = "<group>"; };
+		FA220E10228BA9F6002AD770 /* TableViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewViewController.xib; sourceTree = "<group>"; };
+		FA220E14228BAA3A002AD770 /* StudentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCell.swift; sourceTree = "<group>"; };
+		FA220E15228BAA3A002AD770 /* StudentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentCell.xib; sourceTree = "<group>"; };
+		FA220E18228BABE3002AD770 /* StudentClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentClass.swift; sourceTree = "<group>"; };
+		FA220E1A228BABF8002AD770 /* StudentStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentStruct.swift; sourceTree = "<group>"; };
+		FA220E1D228BB597002AD770 /* CollectionViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewViewController.swift; sourceTree = "<group>"; };
+		FA220E1E228BB597002AD770 /* CollectionViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewViewController.xib; sourceTree = "<group>"; };
+		FA220E22228BB805002AD770 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		FA220E23228BB805002AD770 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		FA220E27228BF0F7002AD770 /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
+		FA220E28228BF0F7002AD770 /* AlamofireViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlamofireViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +65,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071DF3F6D4FE7293957D630B /* Pods_iOS_Training_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2170898A396AEE9F71C027B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF0987C6D8B0E1A9BD1A0441 /* Pods-iOS_Training_Demo.debug.xcconfig */,
+				91417E1136A78F4942E62030 /* Pods-iOS_Training_Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ECF1D5F8A94EF547A872C615 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B27F6C7D8F1F70036DB1F369 /* Pods_iOS_Training_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FA220DDE228BA1B6002AD770 = {
 			isa = PBXGroup;
 			children = (
 				FA220DE9228BA1B6002AD770 /* iOS_Training_Demo */,
 				FA220DE8228BA1B6002AD770 /* Products */,
+				2170898A396AEE9F71C027B3 /* Pods */,
+				ECF1D5F8A94EF547A872C615 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +110,110 @@
 		FA220DE9228BA1B6002AD770 /* iOS_Training_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				FA220DEA228BA1B6002AD770 /* AppDelegate.swift */,
-				FA220DEC228BA1B6002AD770 /* ViewController.swift */,
-				FA220DEE228BA1B6002AD770 /* Main.storyboard */,
+				FA220DFD228BA2B6002AD770 /* ViewControllers */,
+				FA220DFC228BA29E002AD770 /* AppDelegate */,
 				FA220DF1228BA1B7002AD770 /* Assets.xcassets */,
 				FA220DF3228BA1B7002AD770 /* LaunchScreen.storyboard */,
 				FA220DF6228BA1B7002AD770 /* Info.plist */,
 			);
 			path = iOS_Training_Demo;
+			sourceTree = "<group>";
+		};
+		FA220DFC228BA29E002AD770 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FA220DEA228BA1B6002AD770 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		FA220DFD228BA2B6002AD770 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA220E26228BF0E5002AD770 /* Alamofire */,
+				FA220E1C228BB508002AD770 /* CollectionView */,
+				FA220E0E228BA9E5002AD770 /* TableView */,
+				FA220E09228BA660002AD770 /* NSLC */,
+				FA220E04228BA63F002AD770 /* SnapKit */,
+				FA220DFE228BA2CB002AD770 /* Home */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FA220DFE228BA2CB002AD770 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FA220E00228BA2DE002AD770 /* HomeViewController.swift */,
+				FA220E01228BA2DE002AD770 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FA220E04228BA63F002AD770 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				FA220E05228BA658002AD770 /* SnapKitViewController.swift */,
+				FA220E06228BA658002AD770 /* SnapKitViewController.xib */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		FA220E09228BA660002AD770 /* NSLC */ = {
+			isa = PBXGroup;
+			children = (
+				FA220E0A228BA67F002AD770 /* NSLCViewController.swift */,
+				FA220E0B228BA67F002AD770 /* NSLCViewController.xib */,
+			);
+			path = NSLC;
+			sourceTree = "<group>";
+		};
+		FA220E0E228BA9E5002AD770 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				FA220E13228BAA19002AD770 /* StudentCell */,
+				FA220E0F228BA9F6002AD770 /* TableViewViewController.swift */,
+				FA220E10228BA9F6002AD770 /* TableViewViewController.xib */,
+				FA220E18228BABE3002AD770 /* StudentClass.swift */,
+				FA220E1A228BABF8002AD770 /* StudentStruct.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		FA220E13228BAA19002AD770 /* StudentCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA220E14228BAA3A002AD770 /* StudentCell.swift */,
+				FA220E15228BAA3A002AD770 /* StudentCell.xib */,
+			);
+			path = StudentCell;
+			sourceTree = "<group>";
+		};
+		FA220E1C228BB508002AD770 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				FA220E21228BB7DE002AD770 /* Cell */,
+				FA220E1D228BB597002AD770 /* CollectionViewViewController.swift */,
+				FA220E1E228BB597002AD770 /* CollectionViewViewController.xib */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		FA220E21228BB7DE002AD770 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FA220E22228BB805002AD770 /* CollectionViewCell.swift */,
+				FA220E23228BB805002AD770 /* CollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FA220E26228BF0E5002AD770 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				FA220E27228BF0F7002AD770 /* AlamofireViewController.swift */,
+				FA220E28228BF0F7002AD770 /* AlamofireViewController.xib */,
+			);
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA220DF9228BA1B7002AD770 /* Build configuration list for PBXNativeTarget "iOS_Training_Demo" */;
 			buildPhases = (
+				3218F80B6338AF97A1DEEF79 /* [CP] Check Pods Manifest.lock */,
 				FA220DE3228BA1B6002AD770 /* Sources */,
 				FA220DE4228BA1B6002AD770 /* Frameworks */,
 				FA220DE5228BA1B6002AD770 /* Resources */,
+				A60668A6AD6E392207B0A565 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,35 +276,96 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA220E12228BA9F6002AD770 /* TableViewViewController.xib in Resources */,
 				FA220DF5228BA1B7002AD770 /* LaunchScreen.storyboard in Resources */,
+				FA220E17228BAA3A002AD770 /* StudentCell.xib in Resources */,
+				FA220E0D228BA67F002AD770 /* NSLCViewController.xib in Resources */,
 				FA220DF2228BA1B7002AD770 /* Assets.xcassets in Resources */,
-				FA220DF0228BA1B6002AD770 /* Main.storyboard in Resources */,
+				FA220E03228BA2DE002AD770 /* HomeViewController.xib in Resources */,
+				FA220E20228BB597002AD770 /* CollectionViewViewController.xib in Resources */,
+				FA220E2A228BF0F7002AD770 /* AlamofireViewController.xib in Resources */,
+				FA220E08228BA658002AD770 /* SnapKitViewController.xib in Resources */,
+				FA220E25228BB805002AD770 /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3218F80B6338AF97A1DEEF79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_Training_Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A60668A6AD6E392207B0A565 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_Training_Demo/Pods-iOS_Training_Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS_Training_Demo/Pods-iOS_Training_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA220DE3228BA1B6002AD770 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA220DED228BA1B6002AD770 /* ViewController.swift in Sources */,
+				FA220E24228BB805002AD770 /* CollectionViewCell.swift in Sources */,
+				FA220E07228BA658002AD770 /* SnapKitViewController.swift in Sources */,
 				FA220DEB228BA1B6002AD770 /* AppDelegate.swift in Sources */,
+				FA220E1B228BABF8002AD770 /* StudentStruct.swift in Sources */,
+				FA220E0C228BA67F002AD770 /* NSLCViewController.swift in Sources */,
+				FA220E02228BA2DE002AD770 /* HomeViewController.swift in Sources */,
+				FA220E19228BABE3002AD770 /* StudentClass.swift in Sources */,
+				FA220E16228BAA3A002AD770 /* StudentCell.swift in Sources */,
+				FA220E29228BF0F7002AD770 /* AlamofireViewController.swift in Sources */,
+				FA220E11228BA9F6002AD770 /* TableViewViewController.swift in Sources */,
+				FA220E1F228BB597002AD770 /* CollectionViewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FA220DEE228BA1B6002AD770 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA220DEF228BA1B6002AD770 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FA220DF3228BA1B7002AD770 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,10 +495,12 @@
 		};
 		FA220DFA228BA1B7002AD770 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF0987C6D8B0E1A9BD1A0441 /* Pods-iOS_Training_Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOS_Training_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,10 +514,12 @@
 		};
 		FA220DFB228BA1B7002AD770 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91417E1136A78F4942E62030 /* Pods-iOS_Training_Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOS_Training_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
